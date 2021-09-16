@@ -216,6 +216,9 @@ GameObject:
   m_Component:
   - component: {fileID: 953246580}
   - component: {fileID: 953246579}
+  - component: {fileID: 953246582}
+  - component: {fileID: 953246581}
+  - component: {fileID: 953246583}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -264,7 +267,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.10234961, g: 0.9433962, b: 0.30391327, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -282,9 +285,47 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953246578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.27, y: -0.07, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &953246581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953246578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6748a82a3ee5a834ba10f242fb3eb60e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: -1
+--- !u!114 &953246582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953246578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c6748d4a20ab1844abd76abd23a822d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &953246583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953246578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 505f30b275af0f54c938e339905e85fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrefabCirculo: {fileID: 84047000349104050, guid: a1bf8d0f7acd4e54482e7916575f5b4a, type: 3}
